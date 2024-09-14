@@ -1,7 +1,7 @@
 Welcome to Rocketfi's documentation!
 ===================================
 
-**Rocketfi** provides a range of liquidity solutions for the Defi ecosystem of TON
+**Rocketfi** provides liquidity solutions for the Defi ecosystem of TON
 
 Check out the :doc:`api` section for further information
 
