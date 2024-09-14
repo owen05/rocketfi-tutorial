@@ -4,7 +4,9 @@ API
 .. autosummary::
    :toctree: generated
 
-### Get Price
+Get Price
++++++++++++++
+
 
 .. http:get:: /api/get_price/
 
@@ -17,7 +19,7 @@ API
 
    **Example response**
 
-   .. sourcecode:json
+   .. sourcecode:: json
        {
             "status": 200,
             "results": {
@@ -38,7 +40,8 @@ API
       The frontend needs to integrate ton-sdk and use the parameters returned by the Get Price API to construct on-chain transaction
 
 
-### Get Order status
+Get Order status
++++++++++++++++
 
 .. http:get:: /api/order_status/
 
@@ -50,7 +53,7 @@ API
 
    **Example response**
 
-   .. sourcecode:json
+   .. sourcecode::json
        {
             "status": 200,
             "results": {
