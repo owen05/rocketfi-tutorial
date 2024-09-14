@@ -55,7 +55,7 @@ Get Order status
 
    **Example response**
 
-   .. sourcecode::json
+   .. sourcecode:: json
 
        {
             "status": 200,
