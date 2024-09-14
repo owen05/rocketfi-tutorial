@@ -6,3 +6,4 @@ recommonmark
 sphinx-markdown-tables
 #emoji
 sphinxemoji
+sphinxcontrib-httpdomain
