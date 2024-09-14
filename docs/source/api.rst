@@ -1,12 +1,14 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
+.. contents:: Table of contents
+   :local:
+   :backlinks: none
+   :depth: 2
+
 
 Get Price
-+++++++++++++
-
+--------------------------------
 
 .. http:get:: /api/get_price/
 
@@ -20,6 +22,7 @@ Get Price
    **Example response**
 
    .. sourcecode:: json
+
        {
             "status": 200,
             "results": {
@@ -41,7 +44,7 @@ Get Price
 
 
 Get Order status
-+++++++++++++++
+--------------------------------
 
 .. http:get:: /api/order_status/
 
@@ -50,10 +53,10 @@ Get Order status
    :query string user_wallet_address: required
    :query string query_order_id: required
 
-
    **Example response**
 
    .. sourcecode::json
+
        {
             "status": 200,
             "results": {
