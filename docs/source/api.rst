@@ -10,7 +10,8 @@ API
 Get Price
 --------------------------------
 
-sss
+Projects list
++++++++++++++
 
 .. http:get:: /api/get_price/
 
